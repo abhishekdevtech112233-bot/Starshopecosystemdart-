@@ -1,0 +1,58 @@
+name: star_shops
+description: "Star Shops Flutter Mobile Application"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🌐 Supabase Integration (Database, RPC, Auth, Views, Likes)
+  supabase_flutter: ^2.8.0
+
+  # 📍 GPS, Geocoding & Maps Navigation
+  geolocator: ^13.0.1
+  url_launcher: ^6.3.1
+  http: ^1.2.2
+
+  # 💾 Local Device Storage & Cache
+  shared_preferences: ^2.3.2
+
+  # 🎬 Video Player & Image Caching
+  video_player: ^2.9.2
+  cached_network_image: ^3.4.1
+
+  # 🔤 Google Fonts Typography
+  google_fonts: ^6.2.1
+
+  # 🧮 Smart Savings Calculator Logic
+  math_expressions: ^2.6.0
+
+  # ↗️ Native Social Share & Clipboard Link
+  share_plus: ^10.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # 📱 App Icon Generator
+  flutter_launcher_icons: ^0.13.1
+
+# 🖼️ App Icon Settings (Optional: Logo assets/icon/app_logo.png में रखकर आइकॉन बनाएं)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # अगर आपको कोई लोकल फोटो या आइकन रखना हो तो:
+  # assets:
+  #   - assets/icon/
